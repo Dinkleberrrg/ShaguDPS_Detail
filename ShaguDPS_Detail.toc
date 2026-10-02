@@ -1,0 +1,9 @@
+## Interface: 11200
+## Title: |cffffcc00Shagu|cffffffffDPS |cff888888Details|r
+## Notes: Aufschlüsselung pro Zauber und Ziel - Anzahl, Mittelwert, Maximum, Crits. Klick auf einen Balken oder /sdd
+## Author: fuer Henry
+## Version: 1.0
+## Dependencies: ShaguDPS
+## SavedVariablesPerCharacter: ShaguDPS_Detail_Config
+
+ShaguDPS_Detail.lua
