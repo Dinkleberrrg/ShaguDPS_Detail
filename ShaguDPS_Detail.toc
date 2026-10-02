@@ -1,7 +1,7 @@
 ## Interface: 11200
 ## Title: |cffffcc00Shagu|cffffffffDPS |cff888888Details|r
 ## Notes: Per-spell and per-target breakdown - count, average, maximum, crits. Click a bar or /sdd
-## Author: Henry
+## Author: Dinkleberrrg
 ## Version: 1.0
 ## Dependencies: ShaguDPS
 ## SavedVariablesPerCharacter: ShaguDPS_Detail_Config
