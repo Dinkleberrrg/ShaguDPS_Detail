@@ -1,25 +1,25 @@
 # ShaguDPS Details
 
-Erweiterung für [ShaguDPS](https://github.com/shagu/ShaguDPS) (WoW 1.12): detaillierte Aufschlüsselung pro Zauber und pro Ziel.
+Extension for [ShaguDPS](https://github.com/shagu/ShaguDPS) (WoW 1.12): detailed breakdown per spell and per target.
 
-## Was es zeigt
-Für jeden Zauber bzw. jede Fähigkeit eines Spielers:
-- Anzahl der Treffer
-- Mittelwert und Maximum
-- Crit-Quote
-- Verteilung auf die Ziele
+## What it shows
+For every spell or ability of a player:
+- number of hits
+- average and maximum
+- crit rate
+- distribution across targets
 
-## Bedienung
-- Klick auf einen Balken im ShaguDPS-Fenster öffnet die Details für diesen Spieler.
-- `/sdd` öffnet das Fenster direkt.
+## Usage
+- Click a bar in the ShaguDPS window to open the details for that player.
+- `/sdd` opens the window directly.
 
-## Wie es funktioniert
-ShaguDPS speichert pro Zauber nur die Summe. Dieses Addon legt die zusätzlichen Daten daneben an, ohne ShaguDPS selbst zu verändern. Es hängt sich an `parser.AddData` und prüft die Kampflog-Rohmeldung vorher gegen die Crit-Muster. Ein Update von ShaguDPS überschreibt also nichts.
+## How it works
+ShaguDPS only stores the total per spell. This addon keeps the extra data alongside without modifying ShaguDPS itself. It hooks `parser.AddData` and checks the raw combat log message against the crit patterns beforehand. Updating ShaguDPS therefore overwrites nothing.
 
-Schriftgröße und Deckkraft werden von `ShaguDPS_UI` übernommen, falls installiert.
+Font size and opacity are taken from `ShaguDPS_UI` if installed.
 
-## Voraussetzungen
+## Requirements
 ShaguDPS
 
-## Gespeicherte Daten
-`ShaguDPS_Detail_Config` (pro Charakter)
+## Saved data
+`ShaguDPS_Detail_Config` (per character)
